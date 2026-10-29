@@ -26,14 +26,14 @@ buildscript {
         classpath("org.jetbrains.kotlin:kotlin-allopen:${rootProject.extra["kotlinVersion"]}") // kotlin-spring 사용을 위해 필요하다.
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${rootProject.extra["springBootVersion"]}")
         classpath("io.spring.gradle:dependency-management-plugin:1.0.11.RELEASE")
-        classpath("nu.studer:gradle-jooq-plugin:6.0")
+        classpath("nu.studer:gradle-jooq-plugin:10.2.1")
         classpath("gradle.plugin.org.flywaydb:gradle-plugin-publishing:7.12.1")
     }
 }
 
 plugins {
     id("org.flywaydb.flyway") version "7.12.1"
-    id("nu.studer.jooq") version "6.0"
+    id("nu.studer.jooq") version "10.2.1"
     id("io.spring.dependency-management") version "1.0.11.RELEASE"
 }
 
