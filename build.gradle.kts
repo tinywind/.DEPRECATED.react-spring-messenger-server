@@ -158,6 +158,6 @@ project(":api-server") {
         "implementation"("com.graphql-java-kickstart:graphiql-spring-boot-starter:11.1.0")
         "implementation"("com.graphql-java-kickstart:voyager-spring-boot-starter:11.1.0")
         // "testImplementation"("com.graphql-java-kickstart:graphql-spring-boot-starter-test:11.1.0")
-        "testImplementation"("com.graphql-java-kickstart:graphql-webclient-spring-boot-starter:1.0.0")
+        "testImplementation"("com.graphql-java-kickstart:graphql-webclient-spring-boot-starter:2.1.0")
     }
 }
